@@ -1,5 +1,7 @@
 package testngDemo;
 
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
@@ -33,7 +35,7 @@ public class AssertionDemo
 	  int a=100,b=100;
 	  SoftAssert sf=new SoftAssert();
 	  //sf.assertEquals(a,b,"Assert Fail: Value of a and b are not equals!");
-	  sf.assertFalse(a==b,"Assert Fail: Value of a and b are equals!");
+	  Assert.assertFalse(a==b,"Assert Fail: Value of a and b are equals!");
 	  System.out.println("Assert Pass: Value of a and b are not equals!");
 	  sf.assertAll();
 	  
