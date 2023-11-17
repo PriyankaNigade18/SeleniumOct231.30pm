@@ -8,5 +8,8 @@
 	</classpathentry>
 	<classpathentry kind="lib" path="C:/Users/Ganes/Downloads/selenium-server-4.14.1.jar"/>
 	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/Ganes/Downloads/poi-ooxml-5.2.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Ganes/Downloads/poi-5.2.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Ganes/Downloads/extentreports-5.0.8.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
